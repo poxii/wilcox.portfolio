@@ -1,0 +1,70 @@
+{
+  "name": "portfolio",
+  "description": "portfolio",
+  "version": "0.1.1",
+  "private": true,
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npm run build && next start",
+    "lint": "next lint",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@next/third-parties": "^14.1.2",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-tooltip": "^5.26.3",
+    "react-vertical-timeline-component": "^3.6.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "@icongo/ae": "^1.2.0",
+    "@icongo/cg": "^1.2.0",
+    "@icongo/cy": "^1.2.0",
+    "@icongo/fc": "^1.2.0",
+    "@icongo/ic": "^1.2.0",
+    "@icongo/iu": "^1.2.0",
+    "@icongo/lg": "^1.2.0",
+    "@icongo/pp": "^1.2.0",
+    "@icongo/si": "^1.2.0",
+    "@icongo/sk": "^1.2.0",
+    "@icongo/sn": "^1.2.0",
+    "@icongo/sti": "^1.2.0",
+    "@icongo/vl": "^1.2.0",
+    "@next/bundle-analyzer": "^14.1.2",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18",
+    "autoprefixer": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "husky": "^9.0.11",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "nextBundleAnalysis": {
+    "budget": 358400,
+    "budgetPercentIncreaseRed": 20,
+    "minimumChangeThreshold": 0,
+    "showDetails": true
+  }
+}
